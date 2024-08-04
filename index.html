@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css"/>
+</head>
+<body>
+<div class="wrapper">
+    <div class="header">
+        <h3>Improve your Typing Skills</h3>
+        <p>(correct spelling of words)</p>
+    </div>
+
+    <div class="content">
+        <div class="mode">
+            <div class="words-count-mode" id="words-count-mode">
+                <div>
+                    <input type="radio" id="top100" name="wordsCount" value="100" checked/>
+                    <label for="top100">top 100 words</label><br/>
+                </div>
+                <div>
+                    <input type="radio" id="top500" name="wordsCount" value="500"/>
+                    <label for="top500">top 500 words</label><br/>
+                </div>
+                <div>
+                    <input type="radio" id="top1000" name="wordsCount" value="1000"/>
+                    <label for="top1000">top 1000 words</label><br/>
+                </div>
+            </div>
+
+            <div class="words-type-mode">
+                <div>
+                    <input type="radio" id="idAll" name="repeatWords" value="all"/>
+                    <label for="idAll">Repeat <b>all</b> words</label><br/>
+                </div>
+                <div>
+                    <input type="radio" id="idwrong" name="repeatWords" value="wrong" checked />
+                    <label for="idwrong">Repeat only <b>wrong</b> words</label><br/>
+                </div>
+            </div>
+        </div>
+
+        <div class="words-list" id="words-list"></div>
+        <div class="activity-block">
+            <input type="text"/>
+        </div>
+    </div>
+    <div class="footer">Email for proposals and corporations: ...</div>
+</div>
+
+<script src="./js/main.js"></script>
+</body>
+</html>
